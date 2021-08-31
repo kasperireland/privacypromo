@@ -557,20 +557,10 @@ We also log how many times this or that tracker has been blocked. We need this i
 
 {%
   include cardv2.html
-  title="Stubby"
-  image="/assets/img/png/3rd-party/stubby.png"
-  description='An application that acts as a local DNS-over-TLS stub resolver. Stubby can be used in <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Clients#DNSPrivacyClients-Unbound/Stubbycombination">combination with Unbound</a> by managing the upstream TLS connections (since Unbound cannot yet re-use TCP/TLS connections) with Unbound providing a local cache.'
-  website="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
-  forum="https://forum.privacytools.io/t/discussion-stubby/3582"
-  github="https://github.com/getdnsapi/stubby"
-%}
-
-{%
-  include cardv2.html
   title="Firefox's built-in DNS-over-HTTPS resolver"
   image="/assets/img/svg/3rd-party/firefox_browser.svg"
-  description='Firefox comes with built-in DNS-over-HTTPS support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually use any other DoH resolver.'
-  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare logs a limited amount of data about the DNS requests that are sent to their custom resolver for Firefox."
+  description='The Firefox Browser comes with built-in DNS-over-HTTPS (DoH) support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually use any other DoH resolver.'
+  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare logs a limited amount of data regarding the DNS requests that are sent to their custom FireFox resolver. It is unclear what exactly happens with this logged data, but Cloudflare claims that it is a privacy-respecting service."
   website="https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
   privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
   forum="https://forum.privacytools.io/t/discussion-firefox-s-built-in-dns-over-https-resolver/3564"
