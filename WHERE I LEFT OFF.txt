@@ -1,0 +1,1 @@
+- Homepage & services section modifications completed for now. Finish web browsers, software, OS, privacypromo services, and donate sections, along with all other pages.
