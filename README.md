@@ -5,7 +5,4 @@
 <p>
 	<em>Protection Against Global Mass Surveillance and Unethical Tracking.</em>
 </p>
-<a href="https://opencollective.com/privacytools#support">
-	<img src="https://opencollective.com/privacytools/tiers/badge.svg">
-</a>
 </div>
