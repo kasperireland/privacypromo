@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from privacy.promo/software/passwords/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Nov 2021 01:22:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption">
+  <meta name="description" content="Keep your passwords secure & nearly impossible to guess with encrypted password managers.">
+  <link rel="canonical" href="index.html">
+
+  <!-- title -->
+  
+  <title>Password Managers | PrivacyPromo</title>
+  <meta property="og:title" content="Password Managers | PrivacyPromo" />
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:image" content="../../assets/img/svg/layout/brand/square-transparent.svg" />
+  <meta property="og:description" content="Keep your passwords secure & nearly impossible to guess with encrypted password managers."/>
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:site_name" content="PrivacyPromo" />
+
+  
+
+  <!-- icons -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../raw.githubusercontent.com/kasperireland/images/main/New%20Project%20-%202021-08-30T214255.806.png?raw=true">
+  
+  <meta name="msapplication-TileColor" content="#3498db">
+  <meta name="msapplication-config" content="../../assets/img/png/favicons/browserconfig5e1f.xml?v=2">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- CSS stylesheets -->
+  <link href="../../assets/css/stylec164.css?v=9" rel="stylesheet">
+  <link id="dark-css" href="../../assets/css/dark7b30.css?v=4" rel="stylesheet" media="(prefers-color-scheme: dark)">
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+  <script src="../../assets/js/applytheme3860.js?v=1"></script>
+  <header>
+  <nav class="fixed-top bg-dark">
+  <div id="navbar" class="d-flex flex-wrap justify-content-between align-items-center">
+    <div class="w-50">
+      <a id="nav-home-mobile" class="nav-anchor" href="../../index.html">
+        <img src="../../assets/img/svg/layout/brand/horizontal.svg" width="150px" />
+      </a>
+    </div>
+    <input type="checkbox" id="nav-toggle" checked />
+    <label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+
+    <div class="menu w-100">
+      <div id="nav-left" class="position-relative flex-col">
+        <a class="nav-anchor" href="../../index.html">
+          <span id="nav-home" class="fas fa-home fa-fw"></span>
+        </a>
+
+        <!-- Provider -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Provider
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="../../providers/index.html#ukusa"><span class="fas fa-user-secret fa-fw"></span> Avoid US & UK services</a>
+            <a class="dropdown-item" href="../../providers/cloud-storage/index.html"><span class="fas fa-cloud fa-fw"></span> Cloud Storage</a>
+            <a class="dropdown-item" href="../../providers/dns/index.html"><span class="fa fa-tasks fa-fw"></span> DNS</a>
+            <a class="dropdown-item" href="../../providers/email/index.html"><span class="fas fa-mail-bulk fa-fw"></span> Email</a>
+            <a class="dropdown-item" href="../../providers/hosting/index.html"><span class="fas fa-database fa-fw"></span> Hosting</a>
+            <a class="dropdown-item" href="../../providers/paste/index.html"><span class="fas fa-paste fa-fw"></span> Pastebins</a>
+            <a class="dropdown-item" href="../../providers/search-engines/index.html"><span class="fas fa-search fa-fw"></span> Search Engines</a>
+            <a class="dropdown-item" href="../../providers/social-networks/index.html"><span class="fas fa-expand-arrows-alt fa-fw"></span> Social Networks</a>
+            <a class="dropdown-item" href="../../providers/social-news-aggregator/index.html"><span class="far fa-newspaper fa-fw"></span> Social News Aggregators</a>
+            <a class="dropdown-item" href="../../providers/video/index.html"><span class="fas fa-video fa-fw"></span> Video Platforms</a>
+            <a class="dropdown-item" href="../../providers/vpn/index.html"><span class="far fa-eye-slash fa-fw"></span> VPN</a>
+          </span>
+        </details>
+
+        <!-- Browser -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Browser
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="../../browsers/index.html#browser"><span class="fas fa-check fa-fw"></span> Recommendation</a>
+            <a class="dropdown-item" href="../../browsers/index.html#fingerprint"><span class="fas fa-fingerprint fa-fw"></span> Fingerprinting Info</a>
+            <a class="dropdown-item" href="../../browsers/index.html#webrtc"><span class="far fa-eye fa-fw"></span> WebRTC IP Leak</a>
+            <a class="dropdown-item" href="../../browsers/index.html#addons"><span class="far fa-list-alt fa-fw"></span> Browser Add-ons</a>
+            <a class="dropdown-item" href="../../browsers/index.html#about_config"><span class="fas fa-wrench fa-fw"></span> Firefox Tweaks</a>
+          </span>
+        </details>
+
+        <!-- Software -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Software
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="../calendar-contacts/index.html"><span class="fas fa-calendar fa-fw"></span> Calendar/Contacts Sync Tools</a>
+            <a class="dropdown-item" href="../notebooks/index.html"><span class="far fa-sticky-note fa-fw"></span> Digital Notebook</a>
+            <a class="dropdown-item" href="../email/index.html"><span class="fas fa-envelope fa-fw"></span> Email Clients</a>
+            <a class="dropdown-item" href="../encryption-tools/index.html"><span class="fas fa-lock fa-fw"></span> File Encryption</a>
+            <a class="dropdown-item" href="../file-sharing/index.html"><span class="fas fa-file-export fa-fw"></span> File Sharing</a>
+            <a class="dropdown-item" href="../file-sync/index.html"><span class="fas fa-copy fa-fw"></span> File Sync</a>
+            <a class="dropdown-item" href="../productivity/index.html#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Metadata Removal Tools</a>
+            <a class="dropdown-item" href="index.html"><span class="fas fa-user-lock fa-fw"></span> Password Manager</a>
+            <a class="dropdown-item" href="../productivity/index.html"><span class="fas fa-briefcase fa-fw"></span> Productivity Tools</a>
+            <a class="dropdown-item" href="../real-time-communication/index.html"><span class="fas fa-comments fa-fw"></span> Real-Time Communication</a>
+            <a class="dropdown-item" href="../networks/index.html"><span class="fas fa-user-secret fa-fw"></span> Self-contained Networks</a>
+            <a class="dropdown-item" href="../cloud/index.html"><span class="fas fa-hdd fa-fw"></span> Self-Hosted Cloud Server</a>
+          </span>
+        </details>
+
+        <!-- OS -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              OS
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="../../operating-systems/index.html"><span class="fas fa-th-large fa-fw"></span> PC OS</a>
+            <a class="dropdown-item" href="../../operating-systems/index.html#tor_os"><span class="ptio-tor"></span> Tor focused distributions</a>
+            <a class="dropdown-item" href="../../operating-systems/index.html#mobile_os"><span class="fas fa-mobile-alt fa-fw"></span> Mobile OS</a>
+            <a class="dropdown-item" href="../../operating-systems/index.html#aaddons"><span class="fas fa-th fa-fw"></span> Android Privacy Add-ons</a>
+            <a class="dropdown-item" href="../../operating-systems/index.html#iaddons"><span class="fas fa-th fa-fw"></span> iOS Privacy Add-ons</a>
+            <a class="dropdown-item" href="../../operating-systems/index.html#firmware"><span class="fas fa-signal fa-fw"></span> Router Firmware</a>
+            <a class="dropdown-item" href="../../operating-systems/index.html#win10"><span class="far fa-thumbs-down fa-fw"></span> Don't use Windows 10</a>
+          </span>
+        </details>
+
+        <a class="nav-anchor" href="../../index-2.html#participate">Participate</a>
+      </div>
+      <!-- theme selecter -->
+      <span id="nav-switch-theme" class="nav-anchor">
+          <span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Theme"></span>
+          <span class="sr-only">Toggle Theme</span>
+        </span>
+      <!-- end theme selecter -->
+    </div>
+  </div>
+</nav>
+
+  <div id="top" class="py-4"></div>
+  </header>
+  <div class="container" role="main">
+  <main>
+  <nav id="breadcrumb" aria-label="breadcrumb">
+  
+  <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li class="breadcrumb-item">
+      <a href="../../index.html"><i class="fas fa-home" aria-hidden="true"></i> <span>Home</span></a>
+    </li>
+    
+    
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="../index.html" itemprop="item"><span itemprop="name">Software</span></a>
+      <meta itemprop="position" content="1" />
+    </li>
+    
+    
+    
+    <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <link href="index.html" itemprop="item"  />
+      <span itemprop="name">Passwords 
+      </span>
+      <meta itemprop="position" content="2" />
+    </li>
+    
+    
+  </ol>
+</nav>
+
+
+<div class="jumbotron p-5">
+  <h1 class="display-4">Password Managers</h1>
+  <p class="lead">Keep your passwords secure & nearly impossible to guess with encrypted password managers.</p>
+</div>
+
+<h1 id="pw" class="anchor"><a href="#pw"><i class="fas fa-link anchor-icon"></i></a> Password Manager Software</h1>
+
+<div class="alert alert-warning" role="alert">
+  <strong>If you are currently using a password manager like 1Password, LastPass, Roboform, or iCloud Keychain, we highly recommend to pick an alternative here.</strong>
+</div>
+
+<div class="card">
+  <div class="card-header text-white bg-secondary">
+    <h3 class="h5">
+      
+        Bitwarden - Cloud/Self-host
+      
+    </h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <img
+        src="../../assets/img/svg/3rd-party/bitwarden.svg"
+        
+        height="120"
+        width="120"
+        class="panel-pic"
+        alt="Bitwarden - Cloud/Self-host logo"
+      >
+      <strong>Bitwarden</strong> is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server.
+      
+    </p>
+    <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+      <div class="flow-root flex-shrink-0 mr-1">
+        <a
+          href="https://bitwarden.com/"
+          rel="noopener"
+          class="btn btn-primary mt-1 mr-1">
+          <i class="fas fa-external-link-alt fa-fw"></i>
+          Website
+        </a>
+        
+        <a
+          href="https://bitwarden.com/privacy/"
+          rel="noopener"
+          class="btn btn-warning mt-1 mr-1">
+          <i class="fas fa-book fa-fw"></i>
+          Privacy Policy
+        </a>
+        
+        
+        
+        
+      </div>
+
+      <div class="mt-2">
+          
+            
+              <a href="https://bitwarden.com/#download" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://bitwarden.com/#download" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://bitwarden.com/#download" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://www.npmjs.com/package/@bitwarden/cli" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://www.npmjs.com/package/@bitwarden/cli" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://www.npmjs.com/package/@bitwarden/cli" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://addons.mozilla.org/firefox/addon/bitwarden-password-manager/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://safari-extensions.apple.com/details/?id=com.bitwarden.safari-LTZ2PFU5D6" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://addons.opera.com/extensions/details/bitwarden-free-password-manager/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://www.microsoft.com/store/apps/9P6KXL0SVNNL" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://mobileapp.bitwarden.com/fdroid/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://play.google.com/store/apps/details?id=com.x8bit.bitwarden" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+
+          
+            
+              <a href="https://itunes.apple.com/app/bitwarden-free-password-manager/id1137397744?mt=8" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+
+          
+            
+              <a href="https://vault.bitwarden.com/#/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+          
+          
+
+          
+            <a href="https://github.com/bitwarden" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+              <i class="fab fa-github fa-2x fa-fw d-inline"></i>
+            </a>
+          
+
+          
+
+          
+
+          
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+
+<div class="card">
+  <div class="card-header text-white bg-secondary">
+    <h3 class="h5">
+      
+        KeePassXC - Local
+      
+    </h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <img
+        src="../../assets/img/svg/3rd-party/keepassxc.svg"
+        
+        height="120"
+        width="120"
+        class="panel-pic"
+        alt="KeePassXC - Local logo"
+      >
+      <strong>KeePassXC</strong> is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
+      
+    </p>
+    <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+      <div class="flow-root flex-shrink-0 mr-1">
+        <a
+          href="https://keepassxc.org/"
+          rel="noopener"
+          class="btn btn-primary mt-1 mr-1">
+          <i class="fas fa-external-link-alt fa-fw"></i>
+          Website
+        </a>
+        
+        <a
+          href="https://keepassxc.org/privacy/"
+          rel="noopener"
+          class="btn btn-warning mt-1 mr-1">
+          <i class="fas fa-book fa-fw"></i>
+          Privacy Policy
+        </a>
+        
+        
+        
+        
+      </div>
+
+      <div class="mt-2">
+          
+            
+              <a href="https://keepassxc.org/download/#windows" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://keepassxc.org/download/#mac" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://keepassxc.org/download/#linux" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://www.freshports.org/security/keepassxc/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="http://openports.se/security/keepassxc" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="http://pkgsrc.se/security/keepassxc" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+
+          
+
+          
+
+          
+            
+              <a href="https://f-droid.org/packages/com.kunzisoft.keepass.libre/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+          
+
+          
+            <a href="https://github.com/keepassxreboot/keepassxc" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+              <i class="fab fa-github fa-2x fa-fw d-inline"></i>
+            </a>
+          
+
+          
+
+          
+
+          
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+
+<div class="card">
+  <div class="card-header text-white bg-secondary">
+    <h3 class="h5">
+      
+        LessPass - Browser
+      
+    </h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <img
+        src="../../assets/img/svg/3rd-party/lesspass.svg"
+        
+        height="120"
+        width="120"
+        class="panel-pic"
+        alt="LessPass - Browser logo"
+      >
+      <strong>LessPass</strong> is a free and open-source password manager that generates unique passwords for websites, email accounts, or anything else based on a master password and information you know. No sync needed. Uses PBKDF2 and SHA-256. It's advised to use the browser addons for more security.
+      
+    </p>
+    <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
+      <div class="flow-root flex-shrink-0 mr-1">
+        <a
+          href="https://lesspass.com/"
+          rel="noopener"
+          class="btn btn-primary mt-1 mr-1">
+          <i class="fas fa-external-link-alt fa-fw"></i>
+          Website
+        </a>
+        
+        <a
+          href="https://addons.mozilla.org/en-US/firefox/addon/lesspass/privacy/"
+          rel="noopener"
+          class="btn btn-warning mt-1 mr-1">
+          <i class="fas fa-book fa-fw"></i>
+          Privacy Policy
+        </a>
+        
+        
+        
+        
+      </div>
+
+      <div class="mt-2">
+          
+            
+              <a href="https://pypi.org/project/lesspass/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://pypi.org/project/lesspass/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://pypi.org/project/lesspass/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://pypi.org/project/lesspass/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+
+          
+
+          
+            
+              <a href="https://addons.mozilla.org/en-US/firefox/addon/lesspass/" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://chrome.google.com/webstore/detail/lesspass/lcmbpoclaodbgkbjafnkbbinogcbnjih" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+
+          
+
+          
+
+          
+            
+              <a href="https://f-droid.org/packages/com.lesspass.android" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+            
+              <a href="https://play.google.com/store/apps/details?id=com.lesspass.android" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+          
+
+          
+            <a href="https://github.com/lesspass/lesspass" rel="noopener" class="text-decoration-none hover-text-decoration-none">
+              <i class="fab fa-github fa-2x fa-fw d-inline"></i>
+            </a>
+          
+
+          
+
+          
+
+          
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+
+<h3>Worth Mentioning</h3>
+
+<ul>
+  <li>
+    <a href="https://noo.js.org/">Noo</a> - Noo is the truly secure password manager that stores all the data locally and never sends anything anywhere outside. There are no servers, everything is stored on your device.
+  </li>
+  
+  <li>
+    <a href="https://masterpassword.app/">Master Password</a> - A password manager based on an ingenious password-generation algorithm that guarantees your passwords can never be lost. Its passwords aren't stored: they are generated on-demand from your name, the site, and your master password. No syncing, backups, or internet access needed.
+  </li>
+
+  <li>
+    <a href="https://psono.com/">Psono</a> - Free and open source password manager for teams with client side encryption and secure sharing of passwords, files, bookmarks, emails. All secrets are protected by a master password. Uses <a href="https://nacl.cr.yp.to/">NACL Crypto</a>, a combination of Curve25519, Salsa20 and Poly1305.
+  </li>
+
+  <li>
+    <a href="https://pwsafe.org/">Password Safe</a> - Whether the answer is one or hundreds, Password Safe allows you to safely and easily create a secured and encrypted username/password list. With Password Safe all you have to do is create and remember a single "Master Password" of your choice in order to unlock and access your entire username/password list.
+  </li>
+  <li>
+    <a href="https://www.passwordstore.org/">Pass</a> - Pass is a bare-bones password store that keeps passwords using gpg2 encrypted files inside a simple directory tree residing at <code>~/.password-store</code>. It has a simple terminal interface where the user can perform the usual actions, and it's functionality can be extended by plugins. It can also be used in scripts without having to input the actual password in plain text.
+  </li>
+</ul>
+
+
+<h3>Related Information</h3>
+
+<ul>
+  <li><a href="https://peertube.mastodon.host/videos/watch/4cdedd90-a5b4-4022-b93d-828e85ed58cd">Edward Snowden on Passwords on Peertube</a></li>
+</ul>
+
+
+  </main>
+  <footer>
+  <footer>
+
+  <hr class="footer-divider" />
+
+  <h3 id="participate">Spread the word and help your friends</h3>
+
+  <div class="row mb-4">
+    <div class="col-12 col-md-6 d-flex justify-content-between">
+      <a href="mailto:?subject=privacy.promo20-%20encryption%20against%20global%20mass%20surveillance&body=https://privacy.promo/" class="share-btn email" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://privacy.promo" class="share-btn facebook" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <a href="https://twitter.com/share?text=Knowledge%20and%20tools%20to%20protect%20your%20privacy%20against%20global%20mass%20surveillance%20&amp;url=https://privacy.promo/&amp;via=privacytoolsIO" class="share-btn twitter" title="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="https://sharetomastodon.github.io/?title=privacy.promo%20-%20encryption%20against%20global%20mass%20surveillance&amp;url=https://privacy.promo" class="share-btn mastodon" title="Mastodon">
+        <i class="fab fa-mastodon"></i>
+      </a>
+    </div>
+    <div class="col-12 col-md-6 d-flex justify-content-between">
+      <a href="https://reddit.com/submit?url=https://privacy.promo&amp;title=privacy.promo%20-%20encryption%20against%20global%20mass%20surveillance" class="share-btn reddit" title="reddit">
+        <i class="fab fa-reddit-alien"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/shareArticle?url=https://privacy.promo&amp;title=privacy.promo%20-%20encryption%20against%20global%20mass%20surveillance" class="share-btn linkedin" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <a href="https://mix.com/mixit?su=submit&amp;url=https://privacy.promo&amp;title=privacy.promo%20-%20encryption%20against%20global%20mass%20surveillance" class="share-btn mix" title="Mix">
+        <i class="ptio-mix"></i>
+      </a>
+
+      <a href="https://sharetodiaspora.github.io/?title=privacy.promo%20-%20encryption%20against%20global%20mass%20surveillance&amp;url=https://privacy.promo" class="share-btn diaspora" title="Diaspora*">
+        <i class="fas fa-asterisk"></i>
+      </a>
+    </div>
+  </div>
+
+  <h3>Copy URL and Description</h3>
+
+  <p>
+  <input type="text" value="PrivacyPromo - Encryption and tools to protect against global mass surveillance - https://privacy.promo" class="form-control input-lg onclick-select">
+  <span class="help-block">For easy copy and paste. Share this text snippet.</span>
+  </p>
+
+  <hr class="footer-divider" />
+
+  <div class="row mt-3">
+    <div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+      <span class="fab fa-creative-commons-zero fa-2x mr-2"></span>
+      <a
+        href="../../LICENSE.txt"
+        data-original-title="This work is free. You can redistribute it and/or modify it under the terms of the &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;."
+        data-toggle="tooltip"
+        data-placement="top">
+        CC0
+      </a>
+    </div>
+
+    <div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+      <span class="far fa-address-card fa-2x mr-2"></span>
+      <a href="../../about/index.html">About Us &amp; Contact</a>
+    </div>
+
+    <div class="col-sm-4 mb-3 d-flex justify-content-center align-items-center">
+      <span class="fas fa-donate fa-2x mr-2"></span>
+      <a href="https://swivro.net/donate.html" data-toggle="tooltip" data-placement="top" data-original-title="Privacy.Promo is funded by Swivro. We receive funding from Swivro once per year, and all donations to Swivro go towards cybersecurity and online privacy efforts. Please consider donating!">Support Us!</a>
+    </div>
+  </div>
+
+  <div class="copyright-text">
+    <a href="../../about/javascript/index.html" data-jslicense="1">
+      <span class="fab fa-js fa-lg"></span>
+      JavaScript Licenses
+    </a>
+    <p class="mt-2">
+      <strong>No Ads, No Google Analytics, No Affiliates, No Unethical Tracking.</strong>
+      <em>PrivacyPromo is a website ran by a small group of people that focuses on protecting your online internet life from unethical tracking and Global Mass Surveillance. Privacy is more serious than you may think.</em>
+    </p>
+    <p class="text-left">
+      Tor v3 (onionsite): <strong><i>coming soon</i></strong>
+    </p>
+    <!-- <small>
+      <a href="/privacy/">Privacy Statement</a> |
+      <a href="/notices/">Notices &amp; Disclaimers</a> |
+      <a href="https://github.com/privacytools/brand">Brand Assets &amp; Guidelines</a> |
+      <a href="https://status.privacytools.io">Status Page</a>
+    </small> -->
+
+  </div>
+</footer>
+
+  </footer>
+</div>
+  <script src="../../assets/js/popper.minae52.js?v=5"></script>
+<script src="../../assets/js/bootstrap.minae52.js?v=5"></script>
+<script src="../../assets/js/sortable.min7b30.js?v=4"></script>
+<script src="../../assets/js/mainae52.js?v=5"></script>
+
+</body>
+
+<!-- Mirrored from privacy.promo/software/passwords/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 14 Nov 2021 01:22:13 GMT -->
+</html>
