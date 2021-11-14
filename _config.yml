@@ -1,0 +1,13 @@
+title: PrivacyPromo - Protection against Global Mass Surveillance and unethical tracking
+name: PrivacyPromo
+description: You are being watched. PrivacyPromo provides knowledge, encryption, and software recommendations to protect you against global mass surveillance and unethical tracking.
+url: "https://privacy.promo"
+production_url: "https://privacy.promo"
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+sitemap:
+file: "/sitemap.xml"
+include: [".well-known"]
+exclude: ["font", "vendor"]
