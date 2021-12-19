@@ -4,3 +4,4 @@
 </a>
 <br />
 	<p>A fork of PrivacyTools.</p>
+	<p>Currently not maintained - please see swivro.net for updated privacy recommendations.</p>
